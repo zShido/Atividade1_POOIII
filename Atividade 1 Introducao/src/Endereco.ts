@@ -17,7 +17,7 @@ export default class Endereco{
         this._rua = rua;
         this._numero = numero;
         this._cidade = cidade;
-        this.estado = estado;
+        this._estado = estado;
 
     }
 
