@@ -28,7 +28,7 @@ export default class Venda{
     }
 
     get produtos() : Produto[]{
-        return this.produtos
+        return this._produtos
     }
 
     set codigoV(codigoV : number){
