@@ -31,6 +31,6 @@ export default class Produto{
     }
 
     set valor(valor : number){
-        this.valor = valor;
+        this._valor = valor;
     }
 }
